@@ -1,16 +1,16 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "target": "ES2020",
+        "target": "ES2021",
         "module": "CommonJS",
         "strict": true,
         "esModuleInterop": true,
         "rootDir": "./src",
         "outDir": "./dist",
         "noImplicitAny": true,
-        "lib": [
-            "ES2021.String"
-        ]
+        // "lib": [
+        //     "ES2021.String"
+        // ]
     },
     "include": [
         "src/**/*",
